@@ -38,8 +38,8 @@ const ingredient6 = document.createElement('li');
 ingredient6.textContent = 'Condiments';
 ingredient6.classList.add('item');
 
-const ingredientsUl = document.querySelector('#ingredients');
-ingredientsUl.append(
+const ingredientsEl = document.querySelector('#ingredients');
+ingredientsEl.append(
   ingredient1,
   ingredient2,
   ingredient3,
