@@ -22,7 +22,9 @@ const images = [
 const elements = images
   .map(
     (option) =>
-      `<li class = "gallery-item"> <img src = "${option.url}" alt ="${option.alt}" width = "550"  ></li>`
+      `<li class = "gallery-item"> 
+      <img src = "${option.url}" alt ="${option.alt}" width = "550"  >
+      </li>`
   )
   .join('');
 
